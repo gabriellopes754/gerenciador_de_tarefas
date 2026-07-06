@@ -1,6 +1,8 @@
 package com.gabriel.gerenciadortarefas.model;
 
 import jakarta.persistence.*;
+import java.time.LocalDate;
+
 
 @Entity
 @Table(name = "tasks")
@@ -17,7 +19,7 @@ public class Task {
     private String status;
 
     private String prioridade;
-
+    private LocalDate dataLimite;
     public Task() {
     }
 
@@ -59,5 +61,12 @@ public class Task {
 
     public void setPrioridade(String prioridade) {
         this.prioridade = prioridade;
+    }
+    public LocalDate getDataLimite() {
+        return dataLimite;
+    }
+
+    public void setDataLimite(LocalDate dataLimite) {
+        this.dataLimite = dataLimite;
     }
 }
