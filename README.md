@@ -18,3 +18,8 @@ Desenvolver um sistema simples para gerenciamento de tarefas utilizando prática
 ## Metodologia
 
 Kanban
+## Mudança de Escopo
+
+Durante o desenvolvimento, o cliente solicitou uma nova funcionalidade: permitir que cada tarefa possua uma data limite para acompanhamento dos prazos.
+
+Essa alteração exigiu a atualização da entidade Task e da documentação do projeto, demonstrando a flexibilidade proporcionada pela metodologia ágil.
